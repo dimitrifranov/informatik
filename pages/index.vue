@@ -3,7 +3,7 @@
     <h2 class="mb-3">Alli wichtige Insider erklärt</h2>
     <v-carousel
       cycle
-      height="600"
+      height="50vh"
       hide-delimiter-background
       show-arrows-on-hover
     >
