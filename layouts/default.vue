@@ -63,12 +63,12 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Frosch',
+          title: 'Basler Ultras',
           to: '/frosch'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Viervier',
+          title: 'Steinenvorstadt',
           to: '/viervier'
         }
       ],
