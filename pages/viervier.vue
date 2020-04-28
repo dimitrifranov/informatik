@@ -8,11 +8,7 @@
       height="500"
       :alt="alt"
     ></v-img>
-    <v-expansion-panels
-      class="parallax float-md-right mt-3"
-      hover="true"
-      popout="true"
-    >
+    <v-expansion-panels class="parallax float-md-right mt-3" hover popout>
       <v-expansion-panel v-for="(item, i) in items" :key="i">
         <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
         <v-expansion-panel-content>{{
@@ -22,6 +18,45 @@
     </v-expansion-panels>
 
     <v-rating class="float-md-right"></v-rating>
+
+    <h2 class="divider py-3">Highlights</h2>
+    <v-timeline>
+      <v-timeline-item>
+        <v-card>
+          <v-card-title>Regula</v-card-title>
+          <v-card-text
+            >D Regula stellt klar das si d Froge selber stellt.</v-card-text
+          >
+          <v-card-actions
+            ><v-btn href="https://youtu.be/3YZKiUrW5-4?t=1114"
+              >Video<v-icon right>mdi-play-circle-outline</v-icon></v-btn
+            ></v-card-actions
+          >
+        </v-card>
+      </v-timeline-item>
+      <v-timeline-item>
+        <v-card>
+          <v-card-title>44er</v-card-title>
+          <v-card-text>Wiso musme fast e Pistole im Sagg drage?</v-card-text>
+          <v-card-actions
+            ><v-btn href="https://youtu.be/3YZKiUrW5-4?t=1114"
+              >Video<v-icon right>mdi-play-circle-outline</v-icon></v-btn
+            ></v-card-actions
+          >
+        </v-card>
+      </v-timeline-item>
+      <v-timeline-item>
+        <v-card>
+          <v-card-title>Jugendhus</v-card-title>
+          <v-card-text>Wie stoht ums Jugendhus in Basel?</v-card-text>
+          <v-card-actions
+            ><v-btn href="https://youtu.be/3YZKiUrW5-4?t=1114"
+              >Video<v-icon right>mdi-play-circle-outline</v-icon></v-btn
+            ></v-card-actions
+          >
+        </v-card>
+      </v-timeline-item>
+    </v-timeline>
   </div>
 </template>
 

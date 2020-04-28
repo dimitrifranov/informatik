@@ -8,11 +8,7 @@
       height="500"
       :alt="alt"
     ></v-img>
-    <v-expansion-panels
-      class="parallax float-md-right mt-3"
-      hover="true"
-      popout="true"
-    >
+    <v-expansion-panels class="parallax float-md-right mt-3" hover popout>
       <v-expansion-panel v-for="(item, i) in items" :key="i">
         <v-expansion-panel-header>{{ item.title }}</v-expansion-panel-header>
         <v-expansion-panel-content>{{
@@ -22,6 +18,15 @@
     </v-expansion-panels>
 
     <v-rating class="float-md-right"></v-rating>
+    <v-btn
+      left
+      rounded
+      large
+      color="purple"
+      class="ma-3"
+      href="https://www.instagram.com/degloonete/"
+      >Instagram Account <v-icon right>mdi-person</v-icon>
+    </v-btn>
   </div>
 </template>
 
@@ -59,12 +64,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/* .parallax {
-  width: 50%;
-}
-
-.divider {
-  clear: both;
-} */
-</style>
+<style scoped></style>
