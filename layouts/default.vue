@@ -56,15 +56,37 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Deglo',
+          to: '/deglo'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Frosch',
+          to: '/frosch'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Viervier',
+          to: '/viervier'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Informatik'
+      title: 'InsiderHub'
     }
   }
 }
 </script>
+
+<style>
+@media only screen and (min-width: 900px) {
+  .parallax {
+    width: 50%;
+  }
+
+  .divider {
+    clear: both;
+  }
+}
+</style>
