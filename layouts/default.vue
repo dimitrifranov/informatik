@@ -35,8 +35,10 @@
       </v-container>
     </v-content>
 
-    <v-footer :fixed="fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer absolute app class="font-weight-medium">
+      <v-col class="text-center" cols="12">
+        {{ new Date().getFullYear() }} — <strong>Dimitri Franov</strong>
+      </v-col>
     </v-footer>
   </v-app>
 </template>
@@ -82,7 +84,7 @@ export default {
 <style>
 @media only screen and (min-width: 900px) {
   .parallax {
-    width: 50%;
+    width: 49%;
   }
 
   .divider {
