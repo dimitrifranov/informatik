@@ -47,8 +47,20 @@ export default {
   components: {},
   data() {
     return {
-      slides: ['deglo.jpg', 'frosch.png', 'viervier.png']
+      slides: ['deglo.jpg', 'frosch.png', 'viervier.png', 'acab.jpg']
     }
   }
 }
 </script>
+
+<style scoped>
+@media only screen and (min-width: 900px) {
+  .parallax {
+    width: 49%;
+  }
+
+  .divider {
+    clear: both;
+  }
+}
+</style>
