@@ -70,6 +70,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Steinenvorstadt',
           to: '/viervier'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'ACAB',
+          to: '/acab'
         }
       ],
       miniVariant: false,
@@ -81,14 +86,4 @@ export default {
 }
 </script>
 
-<style>
-@media only screen and (min-width: 900px) {
-  .parallax {
-    width: 49%;
-  }
-
-  .divider {
-    clear: both;
-  }
-}
-</style>
+<style></style>
